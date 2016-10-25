@@ -32,7 +32,7 @@ pluginBundle {
 
   plugins {
     showGraphPlugin {
-      id = 'com.silverjan.plugins.showGraphPlugin'
+      id = 'com.silverjan.plugins.show-graph-plugin'
       displayName = 'Gradle Show Graph Plugin'
     }
   }
