@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+
+repositories {
+    jcenter()
+}
+
+group = 'com.silverjan.plugins'
+version = '1.0.0'
+description = "Gradle plugin that shows a graph of the execution graph"
+
+dependencies {
+    compile localGroovy()
+    compile gradleApi()
+}
