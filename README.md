@@ -21,10 +21,10 @@ To show the simple execution graph (no tree-style for depending tasks and no tas
 
     gradlew <taskname> showGraph -Psimple
     
-## What the Plugin is Not Able to (or what hasn't been tested)
+## What the Plugin is Not Able to (.. or what hasn't been tested)
 Not able to (== graph will be falsy / error during build)
 
-- Running multiple tasks in the execution command (e.g. 'gradlew taskA taskB showGraph)
+- Running multiple tasks in the execution command (e.g. *gradlew taskA taskB showGraph*)
 
 Not tested
 
