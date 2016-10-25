@@ -2,3 +2,4 @@ build.properties
 .gradle/
 buildSrc/build/
 buildSrc/.gradle/
+build/

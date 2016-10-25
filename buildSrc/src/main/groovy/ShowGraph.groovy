@@ -1,4 +1,4 @@
-package com.bosch.gradle
+package com.silverjan.plugins
 
 import org.gradle.api.*
 import java.util.Map.Entry
