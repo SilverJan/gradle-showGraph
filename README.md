@@ -5,7 +5,7 @@ The main purpose for the plugin is the generation of pretty overviews on what a 
 
 See the plugin in plugins.gradle.com -> https://plugins.gradle.org/plugin/com.silverjan.plugins.show-graph-plugin
 
-## How to Use in Your Project
+## How to Integrate the Plugin in Your Project
 Add the following lines in your build.gradle
 
 	plugins {
