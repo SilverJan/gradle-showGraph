@@ -1,0 +1,161 @@
+build_ap_p_pre
+copyWebapp
+copyEditWebapp
+compileJava
+combineCssFiles
+combineJsScript
+jsMinify
+modifyJsCssNames
+combineStaticContentMinify
+copyPluginResources
+warGeneric
+warTomcat
+war
+ear
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+copyWebapp
+copyEditWebapp
+compileJava
+	combineCssFiles
+	combineJsScript
+	jsMinify
+	modifyJsCssNames
+combineStaticContentMinify <-
+copyPluginResources
+warGeneric
+warTomcat
+war
+ear
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+copyWebapp
+copyEditWebapp
+compileJava
+combineStaticContentMinify <-
+	combineCssFiles
+	combineJsScript
+	jsMinify
+	modifyJsCssNames
+copyPluginResources
+warGeneric
+warTomcat
+war
+ear
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+	copyWebapp
+	copyEditWebapp
+	compileJava
+	combineStaticContentMinify
+		combineCssFiles
+		combineJsScript
+		jsMinify
+		modifyJsCssNames
+	copyPluginResources
+	warGeneric
+	warTomcat
+war <-
+ear
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+war <-
+	copyWebapp
+	copyEditWebapp
+	compileJava
+	combineStaticContentMinify
+		combineCssFiles
+		combineJsScript
+		jsMinify
+		modifyJsCssNames
+	copyPluginResources
+	warGeneric
+	warTomcat
+ear
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+	war
+		copyWebapp
+		copyEditWebapp
+		compileJava
+		combineStaticContentMinify
+			combineCssFiles
+			combineJsScript
+			jsMinify
+			modifyJsCssNames
+		copyPluginResources
+		warGeneric
+		warTomcat
+ear <-
+build_ap_post
+build_ap_p
+bla
+##############
+build_ap_p_pre
+ear <-
+	war
+		copyWebapp
+		copyEditWebapp
+		compileJava
+		combineStaticContentMinify
+			combineCssFiles
+			combineJsScript
+			jsMinify
+			modifyJsCssNames
+		copyPluginResources
+		warGeneric
+		warTomcat
+build_ap_post
+build_ap_p
+bla
+##############
+	build_ap_p_pre
+	ear
+		war
+			copyWebapp
+			copyEditWebapp
+			compileJava
+			combineStaticContentMinify
+				combineCssFiles
+				combineJsScript
+				jsMinify
+				modifyJsCssNames
+			copyPluginResources
+			warGeneric
+			warTomcat
+	build_ap_post
+build_ap_p <-
+bla
+##############
+build_ap_p <-
+	build_ap_p_pre
+	ear
+		war
+			copyWebapp
+			copyEditWebapp
+			compileJava
+			combineStaticContentMinify
+				combineCssFiles
+				combineJsScript
+				jsMinify
+				modifyJsCssNames
+			copyPluginResources
+			warGeneric
+			warTomcat
+	build_ap_post
+bla
